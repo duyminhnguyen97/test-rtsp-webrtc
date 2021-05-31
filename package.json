@@ -1,0 +1,14 @@
+{
+  "name": "Huggy-electron",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "author": "duyminhnguyen97 <ndminh1997@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^13.0.1",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}

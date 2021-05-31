@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Huggy</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'" />
+        <script src="../api/streaming.js"></script>
+    </head>
+    <body style="background: white">
+        <!-- <p>
+            We are using Node.js <span id="node-version"></span>, Chromium <span id="chrome-version"></span>, and
+            Electron <span id="electron-version"></span>.
+        </p> -->
+        <form id="rtsp-submit">
+            <label>RTSP address:</label>
+            <input type="text" id="rtsp" name="rtsp">
+            <input type="submit" value="Submit">
+        </form>
+        <!-- <div><img id="image" style="width:100vw;height:auto"></div> -->
+        <div><video id="stream" controls autoplay src=""></video></div>
+        
+        <button id="record-camera"><i class="ti-video-camera" title="Record Camera">Record</button>
+    </body>
+</html>
